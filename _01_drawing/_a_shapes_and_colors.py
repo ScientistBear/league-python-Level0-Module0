@@ -5,19 +5,22 @@ window = turtle.Screen()
 window.bgcolor('white')
 
 # This code makes a new Turtle. Pick a new name for the turtle
-my_turtle = turtle.Turtle()
+E = turtle.Turtle()
 
 # Make your turtle's shape 'turtle', .shape('turtle')
-
+E.shape('turtle')
 # Set your turtle's speed using .speed(2)
-
+E.speed(2)
 # Set your turtle's color using .color('green') and .pencolor('blue')
-
+E.color('green')
+E.pencolor('black')
 # Move your turtle forward using .forward(100)
+for i in range(4):
+    E.forward(60)
 # TEST    Did your turtle move forward?
 
 # Move your turtle left or right using .left(90) or .right(90)
-
+    E.left(90)
 # Now put the forward and left/right code into a for loop to repeat 4 times.
 # TEST    Did your turtle draw a square?
 
